@@ -1,0 +1,47 @@
+body {
+  color: #000000;
+  background-color: #FFFFFF;
+  font-family: verdana,arial,helvetica,sans-serif;
+  font-size: 9pt;
+}
+
+#headertext {
+  text-shadow:5px 5px 6px #333333;
+  color: #C0C0C0;
+  background-color: transparent;
+  font-size: 50pt;
+  font-family: "Trebuchet MS",verdana,arial,helvetica,sans-serif;
+  padding-right: 20px;
+  font-style: italic;
+  text-align: left;
+}
+
+#navi {
+  text-align: left;
+  list-style: none;
+}
+
+#navi li {
+  display: inline-block;
+  padding: 20px 30px;
+}
+
+#navi a {
+  text-decoration: none;
+}
+
+/**footer*/
+.footlink {
+  height: 20px;
+  background-color: #717171;
+  color: #FFFFFF;
+  text-align: right;
+  padding-top: 1px;
+  padding-right: 30px;
+}
+
+.hpb {
+  font-family: verdana,arial,helvetica,sans-serif;
+  font-size: 5pt;
+  font-weight: normal;
+}
