@@ -1,0 +1,105 @@
+/* Start of default styling -- do NOT edit */
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: skyblue;
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+.task {
+  background: #E0E0E0;
+  border: 2px dashed darkgray;
+  padding: 10px 10px;
+}
+
+.cite {
+  font-size: 10px;
+  font-family: monospace;
+}
+
+.center {
+  display: block;
+  margin: auto;
+}
+
+/* End of default styling */
+
+/* TODO: Add your styling below: */
+
+/* Task 1 */
+#giraffe-info {
+  color: purple;
+}
+
+#giraffe-info a {
+  color: #ff00b5;
+}
+
+
+/* Task 2 */
+
+#green-text {
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+}
+
+#red-text {
+  color: red;
+  font-style: italic;
+  font-size: 16px;
+  text-align: center;
+}
+
+#blue-text {
+  color: blue;
+  text-decoration: underline;
+  font-size: 12px;
+  text-align: left;
+}
+
+/* Task 3 */
+.rel-dim{
+  width: 45%;
+}
+
+.static-dim{
+  width: 150px;
+}
+
+/* Task 5 */
+
+.container {
+    background-color: white;
+    width: 83%;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    margin: 25px;
+}
+
+.container p {
+    background-color: blue;
+    color: white;
+    width:85%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 8px;
+}

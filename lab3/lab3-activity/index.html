@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>INFO 1300: Lab 3 -- CSS</title>
+
+  <!-- TODO: Link to the styles.css stylesheet below: -->
+  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
+</head>
+
+<body>
+  <section>
+    <h1>INFO 1300: Lab 3 -- CSS</h1>
+
+    <p>
+      The purpose of this lab is to become more familiar with writing CSS. Some of the CSS properties you will need for this lab have been covered in lecture, but others you may have to look up. You may find <a href="https://www.w3schools.com/cssref/">W3School's CSS Reference</a> to be helpful.
+    </p>
+  </section>
+
+  <section>
+    <h2>Instructions</h2>
+
+    <p>
+      Open <em>index.html</em> and <em>all.css</em> in Atom and then complete the tasks below. <strong>Do not edit anything between the body tags in <em>index.html</em></strong>.
+      You may only edit the contents of the head tag to link to <em>all.css</em>.
+    </p>
+  </section>
+
+  <section>
+    <h2>Task 1: ID Selectors</h2>
+
+    <p class="task">
+      Change the color of the <em>.giraffe-info</em> selector to <strong>purple</strong>.
+      Then change all of the hyperlinks in the paragraph below to have a font color of #ff00b5 (pink).
+    </p>
+
+    <p id="giraffe-info">
+      The giraffe (Giraffa) is a <a href="https://en.wikipedia.org/wiki/Genus">genus</a> of African <a href="https://en.wikipedia.org/wiki/Even-toed_ungulate">even-toed ungulate</a> <a href="https://en.wikipedia.org/wiki/Mammal">mammals</a>, the <a href="https://en.wikipedia.org/wiki/Largest_mammals#Even-toed_Ungulates_.28Artiodactyla.29">tallest</a> living terrestrial animals and the largest <a href="https://en.wikipedia.org/wiki/Ruminant">ruminants</a>.
+
+      The genus currently consists of one species, Giraffa camelopardalis, the <a href="https://en.wikipedia.org/wiki/Type_species">type species</a>.
+
+      Seven other species are extinct, prehistoric species known from fossils.
+    </p>
+
+    <p class="cite">Source: <a href="https://en.wikipedia.org/wiki/Giraffe">Wikipedia</a>.</p>
+  </section>
+
+  <section>
+    <h2>Task 2: Text Styling</h2>
+
+    <p class="task">
+      Add styling to the paragraphs below so that the statements in the paragraphs are true.
+    </p>
+
+    <p id="green-text">
+      The text in this paragraph is green, bold, and has a font size of 20 pixels. It is aligned to the right.
+    </p>
+
+    <p id="red-text">
+      The text in this paragraph is red, italicized, and has a font size of 16 pixels. It is aligned to the center.
+    </p>
+
+    <p id="blue-text">
+      The text in this paragraph is blue, underlined, and has a font size of 12 pixels. It is aligned to the left.
+    </p>
+  </section>
+
+  <section>
+    <h2>Task 3: Height and Width</h2>
+    <p class="task">
+      Modify the heights and widths of the <em>img</em> tags below.
+    </p>
+
+    <h3>Relative Dimensions</h3>
+    <p class="task">Relative width &amp; height: Change the width of these images to be 45% of the container.</p>
+    <img class="rel-dim" alt="giraffe" src="images/giraffe.jpg"/>
+    <img class="rel-dim" alt="giraffe" src="images/giraffe.jpg"/>
+
+    <p class="cite">Source: <a href="https://pixabay.com/en/giraffe-zoo-mammal-animal-head-2481840/">https://pixabay.com/en/giraffe-zoo-mammal-animal-head-2481840/</a></p>
+
+    <h3>Static Dimensions</h3>
+    <p class="task">Static width &amp; height: Set the height of these images to 150 pixels.</p>
+    <img class="static-dim" alt="giraffe" src="images/giraffe.jpg"/>
+    <img class="static-dim" alt="giraffe" src="images/giraffe.jpg"/>
+
+    <p class="cite">Source: <a href="https://pixabay.com/en/giraffe-zoo-mammal-animal-head-2481840/">https://pixabay.com/en/giraffe-zoo-mammal-animal-head-2481840/</a></p>
+  </section>
+
+  <section>
+    <h2>Task 5: Border, Padding, and Margin</h2>
+
+    <p class="task">
+      Add styling to the <em>section</em> element with class "container" and the paragraphs it contains to replicate the image below. Don't worry about being pixel perfect, just see if you can get something close!
+    </p>
+
+    <img class="center" alt="CSS rendering" src="images/task4.png"/>
+
+    <section class="container">
+      <p>The giraffe's chief distinguishing characteristics are its extremely long neck and legs, its horn-like ossicones, and its distinctive coat patterns.</p>
+      <p>It is classified under the family Giraffidae, along with its closest extant relative, the okapi. Its scattered range extends from Chad in the north to South Africa in the south, and from Niger in the west to Somalia in the east.</p>
+      <p>Giraffes usually inhabit savannahs and woodlands. Their food source is leaves, fruits and flowers of woody plants, primarily acacia species, which they browse at heights most other herbivores cannot reach.</p>
+      <p>They may be preyed on by lions, leopards, spotted hyenas and African wild dogs. Giraffes live in herds of related females and their offspring, or bachelor herds of unrelated adult males, but are gregarious and may gather in large aggregations.</p>
+    </section>
+
+    <p class="cite">Source: <a href="https://en.wikipedia.org/wiki/Giraffe">Wikipedia</a>.</p>
+
+  </section>
+
+</body>
+
+</html>
