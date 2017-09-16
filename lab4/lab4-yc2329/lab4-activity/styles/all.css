@@ -1,0 +1,246 @@
+/* TASK 1: EDIT HERE */
+#cat2 {
+	margin-left: 300px;
+}
+
+
+#dog3 {
+	border: 4px solid black;
+}
+
+#cat3 {
+	margin-left: 300px;
+}
+
+
+#dog4 {
+	border: 4px solid black;
+	padding-left: 100px;
+}
+
+#cat4 {
+	margin-left: 300px;
+}
+
+
+#dog5 {
+	border: 4px solid black;
+	padding-left: 100px;
+	margin-left: 100px;
+}
+
+#cat5 {
+  margin-left: 300px;
+	visibility: hidden;
+}
+/* END OF TASK 1
+
+/* TASK 2: EDIT HERE */
+#one {
+  width: 300px;
+	float: left;
+}
+
+#two {
+	margin-left: 300px;
+}
+
+
+#three {
+  width: 280px;
+	float: left;
+}
+
+#four {
+	margin-left: 300px;
+}
+
+
+#uno {
+	float: left;
+	width: 200px;
+}
+
+#dos {
+  float: left;
+	width: 200px;
+}
+
+#tres {
+	float: right;
+	width: 200px;
+}
+
+.catContainer {
+	float: left;
+	width: 198px;
+}
+
+/* END OF TASK 2*/
+
+/* TASK 3: EDIT HERE */
+
+/* Divs */
+
+.sidebar1 {
+
+}
+
+.mainContent1 {
+}
+
+.sidebar2 {
+	border: 1px solid black;
+	width: 198px;
+	float: left;
+}
+.mainContent2 {
+		padding: 5px;
+		background-color: #5fcbf5;
+		margin-left: 200px;
+}
+
+/* Spans */
+
+.boldText {
+	font-weight: bold;
+}
+
+.italicText {
+	font-style: italic;
+}
+
+.redText {
+	color: red;
+}
+
+.blueText {
+	color:blue;
+}
+
+.underlinedText {
+	text-decoration: underline;
+}
+
+.separatedText {
+}
+
+.borderText {
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.serifText {
+	font-family: serif;
+}
+
+.largeText {
+
+}
+
+.smallText {
+}
+
+/* END OF TASK 3 */
+
+
+/* DO NOT CHANGE ANYTHING BELOW THIS LINE */
+html {
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #d9f2d9;
+	width: 800px;
+	margin: 0 auto;
+	font-size:16px;
+}
+
+h1 {
+	text-align: center;
+	margin: 48px;
+	font-size: 80px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 36px;
+	text-decoration: underline;
+}
+
+#content {
+	width: 800px;
+}
+
+.story {
+	display: block;
+}
+
+.dog {
+	width: 200px;
+	background-color: #1590cc;
+}
+
+.cat {
+	width: 120px;
+	background-color: #dd429f;
+	padding: 20px 0px 0px;
+}
+
+
+.columnsContainer {
+	margin: 10px auto;
+	overflow: hidden;
+	width: 600px;
+	border: 2px dashed black;
+}
+
+p.floatingParagraph {
+	margin: 0px;
+}
+
+
+#one, #three {
+	background-color: #5fcbf5;
+}
+
+#two, #four {
+	background-color: #ffc6f3;
+}
+
+#three, #four {
+	padding: 9px;
+	border: 1px black solid;
+}
+
+
+#uno, #dos, #tres {
+}
+
+#uno {
+	background-color: #5fcbf5;
+}
+
+#dos {
+	background-color: #44b983;
+}
+
+#tres {
+	background-color: #ffc6f3;
+}
+
+.catContainer {
+	border: 1px solid black;
+	text-align: center;
+}
+
+.catContainer .cat {
+	background-color: transparent;
+}
+
+.sidebarHeader {
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
