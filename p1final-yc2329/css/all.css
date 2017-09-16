@@ -119,3 +119,24 @@ body h1 {
   font-size: 16px;
 	color: #5A5A5A;
 }
+
+.icon {
+  float:left;
+  padding: 5px;
+  margin-left: 5px;
+  margin-top: 20px;
+  width:64px;
+}
+
+.inline-icon {
+  float:left;
+  padding: 5px;
+  margin-left: 5px;
+  margin-top: 20px;
+  width:64px;
+}
+
+.content1 {
+  margin-left: 100px;
+  padding: 7px;
+}
