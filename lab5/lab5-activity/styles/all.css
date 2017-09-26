@@ -1,0 +1,68 @@
+/* Main CSS - DO NOT EDIT */
+body {
+  font-family: sans-serif;
+  text-align: center;
+  /*Source: Vector Background, https://www.vexels.com/vectors/preview/71331/painted-forest-scene-landscape*/
+  background: url("../images/jungle.jpg");
+  margin: 0px;
+}
+
+#content {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #ffae42;
+}
+
+h1 span#titleText {
+  background-color: white;
+  border: solid black 3px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+.zooRow {
+  height: 250px;
+  margin: 0px auto 40px auto;
+}
+
+#sign, .animal {
+  width: 180px;
+  float: left;
+  border: solid black 3px;
+  border-radius: 10px;
+  padding: 2px;
+  margin: 5px;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+#sign {
+  height: 820px;
+  background-color: #83C981;
+}
+
+#sign p {
+  padding: 15px;
+}
+
+.animal {
+  height: 240px;
+}
+
+.animal img {
+  width: 180px;
+  overflow: hidden;
+  margin: 0px auto;
+}
+/* End Main CSS - DO NOT EDIT ABOVE THIS LINE */
+
+/* Start Editing Here */
