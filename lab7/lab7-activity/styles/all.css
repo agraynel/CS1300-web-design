@@ -1,0 +1,15 @@
+body {
+  margin: 0px auto;
+  width: 934px;
+}
+
+header {
+  text-align: center;
+  background-color: #76a8f7;
+  border: 1px black solid;
+}
+
+header h1 {
+  margin: 0px;
+  padding: 10px;
+}
