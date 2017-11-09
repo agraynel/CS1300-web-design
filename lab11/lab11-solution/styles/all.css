@@ -1,0 +1,136 @@
+/* Set valid and invalid styles */
+.centerPane input:invalid {
+  border-color: red;
+}
+
+/* make sure the inputs and submit button match the color scheme */
+.centerPane input {
+  color: #EAB9FF;
+  background-color: #3A2E40;
+  border-color: #EAB9FF;
+  border-style: solid;
+  padding: 2px;
+}
+.centerPane input::placeholder {
+  color: #9577A3;
+}
+
+button.submit {
+  font-size: 14px;
+  color: #EAB9FF;
+  background-color: #3A2E40;
+  border: 2px solid #EAB9FF;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  /* Should match width + margin of .labelHolder */
+  margin-left: 130px;
+}
+
+/* Code for the webpage */
+
+body {
+  margin: 0px;
+  background-color: #3A2E40;
+}
+
+.mainContent {
+  width: 1002px;
+  margin: 0px auto;
+  color: #EAB9FF;
+}
+
+header {
+  padding: 10px;
+  border: #EAB9FF solid 1px;
+  border-bottom-width: 0px;
+}
+
+header h1 {
+  margin: 0px;
+  padding: 10px;
+  display: inline;
+  font-size: 78px;
+}
+
+nav {
+  width: 1000px;
+  border: #EAB9FF solid 1px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+nav li a {
+  display: inline-block;
+  background-color: #3A2E40;
+  text-align: center;
+  padding: 15px 0px;
+  width: 500px;
+  margin: 0px;
+  font-size: 18px;
+  float:left;
+  color: #EAB9FF;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  text-decoration: none;
+  background-color: #EAB9FF;
+  font-size: 18px;
+  color: #3A2E40;
+}
+
+nav li a:first-child {
+  margin-left: 0px;
+}
+
+
+.centerPane {
+  padding: 10px;
+  border: #EAB9FF solid 1px;
+  border-top-width: 0px;
+  font-size: 18px;
+}
+
+.centerPane h1 {
+  text-align: center;
+}
+
+/* Align the form labels and inputs */
+.labelAndInputHolder {
+  margin-bottom: 15px;
+}
+
+.labelHolder {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.inputHolder {
+  display: inline-block;
+}
+
+/* Code for errors */
+
+.errorContainer {
+  background-color: pink;
+  color: red;
+  border: 1px red solid;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.hiddenError {
+  display: none;
+}

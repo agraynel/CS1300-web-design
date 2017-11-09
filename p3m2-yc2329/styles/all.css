@@ -1,0 +1,194 @@
+body {
+  color: #000000;
+  background-color: #C9C9C9;
+  font-family: verdana,arial,helvetica,sans-serif;
+  font-size: 9pt;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width:50%;
+    padding: 1%;
+    margin:auto;
+}
+
+textarea {
+    -webkit-appearance: textarea;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    cursor: auto;
+    width: 780px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding-left: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    height: 100px;
+    font-size: 35px;
+  font-weight: normal;
+  border: solid 1px #979797;
+}
+
+
+.box {
+    margin: auto;
+    margin-top: 2%;
+    width: 85%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.container {
+  border-radius: 15px;
+  background-color: white;
+  margin: auto;
+  width: 85%;
+  padding: 2%;
+  text-align: center;
+}
+
+.content-box {
+  margin: auto;
+  padding: 1%;
+}
+
+
+.content {
+  width: 80%;
+  margin: 2%;
+  padding: 1%;
+}
+
+#navi {
+  color: #3F3F3F;
+  font-size: 18px;
+  font-family: "Trebuchet MS",verdana,arial,helvetica,sans-serif;
+  font-style: italic;
+  text-align: left;
+  list-style: none;
+}
+
+#navi li {
+  display: inline-block;
+  padding: 1% 2%;
+}
+
+#navi a {
+  color: black;
+  text-decoration: none;
+}
+
+/** experience*/
+.image {
+  width: 80%;
+  border-radius: 10%;
+}
+
+/**footer*/
+.footlink {
+  height: 25px;
+  background-color: #717171;
+  color: #FFFFFF;
+  text-align: right;
+  padding-top: 1%;
+  padding-right: 2%;
+  margin:auto;
+}
+
+/** font */
+body h1 {
+  font-size: 50px;
+	color: black;
+	font-weight: bold;
+  margin: 10px;
+  text-shadow:2px 3px 3px #333333;
+	font-family: 'Amatic SC', cursive;
+}
+
+.container h2 {
+  padding: 1px;
+  text-align: left;
+  text-decoration: underline;
+  font-size: 22px;
+  font-weight: bold;
+  margin:5px;
+}
+
+.container h4 {
+  text-align: left;
+  padding: 1px;
+  font-size: 15px;
+	color: #949494;
+}
+
+.container p {
+  text-align: left;
+  padding: 1px;
+  font-size: 16px;
+	color: #5A5A5A;
+}
+
+.container p a{
+  text-align: left;
+  font-style: italic;
+  font-weight: bold;
+  padding: 1px;
+  font-size: 16px;
+	color: #5A5A5A;
+}
+
+.icon {
+  float:left;
+  padding: 5px;
+  margin-left: 5px;
+  margin-top: 20px;
+  width:64px;
+}
+
+.content1 {
+  margin-left: 100px;
+  padding: 7px;
+}
+
+
+/* Align the form labels and inputs
+  Credit: code from lab11
+*/
+
+.labelAndInputHolder {
+  margin-bottom: 15px;
+}
+
+.labelHolder {
+  display: inline-block;
+  width: 120px;
+  text-align: left;
+}
+
+.inputHolder {
+  display: inline-block;
+}
+
+.selection {
+  display: inline-flex;
+}
+
+/* Code for errors */
+
+.errorContainer {
+  background-color: pink;
+  color: red;
+  border: 1px red solid;
+  font-size: 14px;
+  text-align: left;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.hiddenError {
+  display: none;
+}
