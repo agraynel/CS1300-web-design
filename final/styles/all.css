@@ -135,11 +135,9 @@ body h1 {
  */
 
 .catalog_main {
-	flex-wrap: wrap;
-	display: flex;
+	display: inline-block;
 	margin: 0 auto;
 	width: 90%;
-  position: absolute;
 }
 
 .catalog_item {
@@ -202,4 +200,45 @@ body h1 {
 	padding: 8px 5px 192px 5px;
 	height: 100%;
 	opacity:0.8;
+}
+
+.form-group{
+  display:inline-block;
+}
+
+.form-flex{
+  display:inline-flex;
+}
+
+.form_container input[class = "button"] {
+	width: 100%;
+	font-weight: bold;
+  background-color: #3C3C3C;
+  color: white;
+  font-size: 20px;
+	padding: 1%;
+  margin:1%;
+	border-radius: 5px;
+}
+
+.form_container input[class="button"]:hover {
+	background-color: green;
+	transition: background-color 0.6s ease;
+}
+/* Code for errors */
+
+.errorContainer {
+  background-color: pink;
+  color: red;
+  border: 1px red solid;
+  font-size: 14px;
+  text-align: left;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.hiddenError {
+  display: none;
 }

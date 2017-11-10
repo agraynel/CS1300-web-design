@@ -1,14 +1,15 @@
 <?php include("includes/header.php"); ?>
   <div class = "container">
     <h1> Current Cornell University Members of SBA  </h1>
-    <img class="title" src="images/projects_mainimage.png" alt = "title">
-    <h2>Goals for Colloborations </h2>
-
-    <p> These are the members of Cornell's SBA Board for the year 2017-2018. These members
-    are hoping to create an enivoronment where students are motivated to aquire
-    leaderhsip qualities that will help them in their future endeavors and will
-    simulatneously learn about the various consultants that they can have and use to be
-     the most successfult that they want to do.  </p>
+    <div class = "catalog_main">
+      <img class="title" src="images/projects_mainimage.png" alt = "title">
+      <h2>Goals for Colloborations </h2>
+      <p>These are the members of Cornell's SBA Board for the year 2017-2018. These members
+      are hoping to create an enivoronment where students are motivated to aquire
+      leaderhsip qualities that will help them in their future endeavors and will
+      simulatneously learn about the various consultants that they can have and use to be
+       the most successfult that they want to do. </p>
+    </div>
     <div class = "catalog_main">
       <div class = "catalog_item">
         <img class="catalog_image" src="images/member1.jpg" target="_blank"alt ="content-image"> </a>
@@ -73,4 +74,5 @@
        </div>
       </div>
     </div>
-  <?php include "includes/footer.php";?>
+    <br>
+    <?php include "includes/footer.php";?>
