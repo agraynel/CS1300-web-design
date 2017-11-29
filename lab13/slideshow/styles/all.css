@@ -1,0 +1,77 @@
+/** CSS for All Pages **/
+
+h1 {
+  text-align: center;
+}
+
+#nav_bar {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  background: #28005b;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.nav_span a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav_span {
+  padding: 2em;
+  color: white;
+}
+
+/** Slideshow **/
+
+#slide {
+  display: block;
+  margin: 0px auto;
+  width: 500px;
+}
+
+#image_container {
+  background: #28005b;
+  padding: 12px;
+  text-align: center;
+}
+
+#current_img {
+  height: 400px;
+}
+
+#button_container {
+  padding: 20px;
+}
+
+.slide_button {
+  border-radius: 20px;
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 20px;
+  border-color: #28005b;
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}
+
+footer {
+  font-size: 1.1em;
+  text-align: center;
+  color: #28005b;
+  border: 2px solid black;
+  padding: 1px;
+  display: block;
+  margin: 80px auto;
+  background-color: lightgray;
+  font-weight: bold;
+}

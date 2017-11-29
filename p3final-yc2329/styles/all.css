@@ -152,13 +152,13 @@ body h1 {
   padding: 7px;
 }
 
-
 /* Align the form labels and inputs
   Credit: code from lab11
 */
 
 .labelAndInputHolder {
   margin-bottom: 15px;
+  text-align: left;
 }
 
 .labelHolder {

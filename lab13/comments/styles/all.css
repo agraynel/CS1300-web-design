@@ -1,0 +1,74 @@
+/** CSS for All Pages **/
+
+h1, h2 {
+  text-align: center;
+}
+
+#nav_bar {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  background: #28005b;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.nav_span a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav_span {
+  padding: 2em;
+  color: white;
+}
+
+/* CSS for Comment Page */
+
+article {
+  width: 700px;
+  margin: 10px auto;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#commentsSection {
+  width: 700px;
+  margin: 10px auto;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+
+.comment {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.commentAuthor {
+  text-align: right;
+  border-top: 1px black dashed;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  padding-right: 10px;
+}
+
+h2 {
+  margin: 5px 0px 15px 0px;
+}
+
+.nameHolder {
+  margin-bottom: 10px;
+}
+
+.commentLabel {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.submit {
+  margin-top: 10px;
+}

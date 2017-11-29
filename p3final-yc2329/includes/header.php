@@ -22,5 +22,6 @@
       <li><a title="Projects" href="projects.php">&raquo; Projects</a></li>
       <li><a title="Experience" href="experience.php">&raquo; Experience</a></li>
       <li><a title="Contact" href="contact.php">&raquo; Contact</a></li>
+      <li><a title="Contact" href="serverSideOnlyForm.php">&raquo; ServerContact</a></li>
     </ul>
   </div>
