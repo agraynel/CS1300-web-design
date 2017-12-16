@@ -26,7 +26,7 @@ if (isset($submit)) {
   $email = $_REQUEST["userEmail"];
   if ( !empty($email) && filter_var($email, FILTER_VALIDATE_EMAIL) ) {
     $emailValid = true;
-  } else {
+  } else {/
     $emailValid = false;
   }
 
